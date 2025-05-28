@@ -1,0 +1,87 @@
+S shape
+
+
+
+
+public class Mix {
+	public static void main(String args[]) {
+		
+		System.out.println("                                                                                       ");
+		int n = 5;
+		for(int i=1; i<=n; i++) {
+			//Romps
+			for(int j = 1; j <= n-i; j++) {
+				System.out.print("   ");
+				
+			}
+			for(int j =1; j<=5; j++) {
+				System.out.print(" * ");
+		}//space
+			
+			for(int j=1; j<=i; j++) {
+				System.out.print("   ");
+				}//square
+			for(int j =1; j<=5; j++) {
+				System.out.print(" * ");
+		}//space
+			for(int j =1; j<=1; j++) {
+				System.out.print("   ");
+		}//triangle
+			int space = (n-i);
+			for(int j=1; j<=space; j++) {
+				System.out.print("   ");
+			}
+			for(int j=1; j<=i; j++) {
+				System.out.print(" * ");
+			}
+			for(int j=2; j<=i; j++) {
+				System.out.print(" * ");
+			}//space
+			int space1 = (2*n-i);
+			for(int j=5; j<=space1; j++) {
+				System.out.print("   ");
+			}//rectangle
+			for(int j =1; j<=5; j++) {
+				System.out.print(" * ");
+		}
+			for(int j =1; j<=5; j++) {
+				System.out.print(" * ");
+		}
+			//space
+			for(int j =1; j<=1; j++) {
+				System.out.print("   ");
+			}
+		//Butterfly
+		
+			for(int j=1; j<=(i); j++) {
+				System.out.print(" * ");
+			}
+			int space11 = 2*((n)-(i));
+			for(int j=1; j<=space11; j++) {
+				System.out.print("   ");
+			}
+			for(int j=1; j<=(i); j++) {
+				System.out.print(" * ");
+			}
+		
+			for(int j=5; j>=(i); j--) {
+				System.out.print(" * ");
+			}
+			int space111 = 2*((n-1)-(i));
+			for(int j=5; j>=space111; j--) {
+				System.out.print("   ");
+			}
+			for(int j=5; j>=(i); j--) {
+				System.out.print(" * ");
+			}
+	
+				
+			
+			
+			System.out.println();
+	}
+
+	}
+
+}
+
