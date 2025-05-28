@@ -1,0 +1,53 @@
+D pattern
+
+
+
+public class D {
+	public static void main(String args[]) {
+		System.out.println("                                                                                                     ");
+		int n = 2;
+		for(int i=1; i<=n; i++) {
+			//first dash
+			for(int j =1; j<=3; j++) {
+				System.out.print(" * ");}
+			//next
+							
+				for(int j =1; j<=6; j++) {
+					System.out.print(" * ");
+				
+			}
+		
+			System.out.println();
+	}//space
+		int a = 6;
+		for(int i=1; i<=a; i++) {
+			
+			for(int j =1; j<=3; j++) {
+				System.out.print("   ");}
+			for(int j =1; j<=2; j++) {
+				System.out.print(" * ");}
+			for(int j =1; j<=2; j++) {
+				System.out.print("   ");}
+			for(int j =1; j<=2; j++) {
+				System.out.print(" * ");}
+			System.out.println();
+	}
+		
+		int b = 2;
+		for(int i=1; i<=b; i++) 
+		{
+			
+			for(int j =1; j<=3; j++) {
+				System.out.print(" * ");}
+			
+				for(int j =1; j<=6; j++) {
+					System.out.print(" * ");
+				
+			}
+		
+			System.out.println();
+	}
+
+	}}
+
+
